@@ -41,6 +41,12 @@
   "Hack": {
     "bold_italic": "BoldItalic/complete/Hack%20Bold%20Italic%20Nerd%20Font%20Complete.ttf"
   },
+  "Hasklig": {
+    "regular": "Regular/complete/Hasklug%20Nerd%20Font%20Complete.otf",
+    "bold": "Bold/complete/Hasklug%20Bold%20Nerd%20Font%20Complete.otf",
+    "italic": "Italic/complete/Hasklug%20Italic%20Nerd%20Font%20Complete.otf",
+    "bold_italic": "Bold-Italic/complete/Hasklug%20Bold%20Italic%20Nerd%20Font%20Complete.otf"
+  },
   "IBMPlexMono": {
     "name": "IBM Plex Mono",
     "regular": "Mono/complete/Blex%20Mono%20Nerd%20Font%20Complete.ttf",
@@ -80,6 +86,9 @@
     "bold": "Bold/complete/monofur%20bold%20Nerd%20Font%20Complete.ttf",
     "italic": "Italic/complete/monofur%20italic%20Nerd%20Font%20Complete.ttf",
     "bold_italic": "Italic/complete/monofur%20italic%20Nerd%20Font%20Complete.ttf"
+  },
+  "Monoid": {
+    "bold_italic": "Italic/complete/Monoid%20Italic%20Nerd%20Font%20Complete.ttf"
   },
   "Mononoki": {
     "regular": "Regular/complete/mononoki-Regular%20Nerd%20Font%20Complete.ttf",

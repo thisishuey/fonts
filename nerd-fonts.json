@@ -38,6 +38,10 @@
     "italic": "Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf",
     "bold_italic": "Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf"
   },
+  "Go-Mono": {
+    "name": "Go Mono",
+    "regular": "Regular/complete/Go%20Mono%20Nerd%20Font%20Complete.ttf"
+  },
   "Hack": {
     "bold_italic": "BoldItalic/complete/Hack%20Bold%20Italic%20Nerd%20Font%20Complete.ttf"
   },

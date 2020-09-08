@@ -39,9 +39,12 @@ CSS_TEMPLATE = """\
 def download_as_base64(url):
     # 'https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/{font}/{regular}'
     req = urllib.request.Request(url)
-    with urllib.request.urlopen(req) as r:
-        data = r.read()
-        return base64.b64encode(data).decode('utf-8')
+    try:
+        with urllib.request.urlopen(req) as r:
+            data = r.read()
+            return base64.b64encode(data).decode('utf-8')
+    except urllib.error.HTTPError as e:
+        print(e)
 
 
 def generate_css(fonts):
@@ -61,9 +64,9 @@ def generate_css(fonts):
             }
             args.update(paths)
             for key in ('regular', 'bold', 'italic', 'bold_italic'):
-                args[key] = download_as_base64(
-                    'https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/%s/%s' % (font, args[key]),
-                )
+                download = 'https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/%s/%s' % (font, args[key])
+                print('Downloading: ' + download)
+                args[key] = download_as_base64(download)
             fd.write(CSS_TEMPLATE.format(**args))
 
 

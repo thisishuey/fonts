@@ -9,12 +9,20 @@
         "italic": "Italic/complete/DejaVu%20Sans%20Mono%20Oblique%20Nerd%20Font%20Complete.ttf",
         "bold_italic": "Bold-Italic/complete/DejaVu%20Sans%20Mono%20Bold%20Oblique%20Nerd%20Font%20Complete.ttf"
     },
+    "FiraCode": {
+        "name": "Fira Code",
+        "italic": "Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf",
+        "bold_italic": "Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf"
+    },
     "Hack": {
         "bold_italic": "BoldItalic/complete/Hack%20Bold%20Italic%20Nerd%20Font%20Complete.ttf"
     },
     "Iosevka": {
         "name": "Iosevka Term",
         "regular": "Regular/complete/Iosevka%20Term%20Nerd%20Font%20Complete.ttf"
+    },
+    "JetBrainsMono": {
+        "name": "JetBrains Mono"
     },
     "LiberationMono": {
         "name": "Liberation Mono",
@@ -27,12 +35,13 @@
         "name": "mononoki",
         "regular": "Regular/complete/mononoki-Regular%20Nerd%20Font%20Complete.ttf"
     },
+    "SourceCodePro": {
+        "name": "Sauce Code Pro",
+        "regular": "Regular/complete/Sauce%20Code%20Pro%20Nerd%20Font%20Complete.ttf"
+    },
     "UbuntuMono": {
         "name": "Ubuntu Mono",
         "regular": "Regular/complete/Ubuntu%20Mono%20Nerd%20Font%20Complete.ttf",
         "italic": "Regular-Italic/complete/Ubuntu%20Mono%20Italic%20Nerd%20Font%20Complete.ttf"
-    },
-    "JetBrainsMono": {
-        "name": "JetBrains Mono"
     }
 }
